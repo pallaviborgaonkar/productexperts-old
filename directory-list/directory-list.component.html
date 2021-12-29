@@ -1,0 +1,29 @@
+
+<div class="page-content">
+
+    <div class="header">
+        <div class="header-text">Meet the experts</div>
+        <div class="description">Google Product Experts participate in 20+ languages across 50+ Google products.</div>
+    </div>
+  
+    <div class="search-box">
+
+        <div class="form-group">
+            <input class="form-control form-control-md" type="text" placeholder="Search"
+              aria-label="Search"
+              [(ngModel)]="searchText"
+              (keyup)="searchItem($event)">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+
+    </div>
+    <div class="dir-list">
+<div class="dir-item">
+        <app-product-card [productInfo]="item" *ngFor="let item of filteredDirList; let i=index;"></app-product-card>
+        </div>
+
+         <p *ngIf="filteredDirList?.length == 0">No items found</p>
+    </div>
+
+
+</div>

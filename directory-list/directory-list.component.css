@@ -1,0 +1,31 @@
+.page-content{
+    background-color: #007bff;
+}
+.header{
+    color: #ffff;
+}
+.header-text {
+    font-size: 44px;
+    line-height: 52px;
+    margin: 50px 16px 0;
+    text-align: center;
+}
+.description {
+    font-size: 20px;
+    line-height: 35px;
+    margin: 20px 16px;
+    text-align: center;
+}
+/* .search-box{
+    display:flex;
+    width:500px;
+    align-items: center;
+} */
+.dir-item{
+    display: flex;
+    margin: 10px;
+}
+.form-control-md{
+    width: 400px;
+    margin-left: 20px;
+}
