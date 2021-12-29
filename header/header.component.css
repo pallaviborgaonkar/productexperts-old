@@ -1,0 +1,38 @@
+.header {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    position: sticky;
+  }
+  .navbar-brand img {
+    max-width: 235px;
+  }
+  .user-img {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #ed4179;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    margin-left: 15px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+    
+   
+    
+  }
+  .nav-item.active {
+    position: relative;
+    
+  }
+  .nav-item .nav-link {
+    color: #ed4179;
+  }
+  .nav-item.signup {
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 1px solid #eee;
+  }
+  .nav-item .nav-link {
+    color: #333;
+  }
